@@ -1,0 +1,79 @@
+{
+  "f814b6e99badc4f4fc36345733a60a25:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec46eb9f39c3eb5c",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Success! Your details have been submitted successfully.\"\nReceived: {Symbol(async_id_symbol): 38228, Symbol(trigger_async_id_symbol): 35074, Symbol(kResourceStore): {\"data\": {\"box\": undefined, \"boxedStack\": undefined, \"category\": \"test.step\", \"complete\": [Function complete], \"location\": {\"column\": 16, \"file\": \"/home/runner/work/git-workflow-attach-report-playwright/git-workflow-attach-report-playwright/src/pages/ContactUsPage.ts\", \"function\": \"ContactUsPage.verifySuccessMessage\", \"line\": 79}, \"stepId\": \"test.step@18\", \"steps\": [{\"apiName\": \"locator.textContent\", \"boxedStack\": undefined, \"category\": \"pw:api\", \"complete\": [Function complete], \"location\": {\"column\": 34, \"file\": \"/home/runner/work/git-workflow-attach-report-playwright/git-workflow-attach-report-playwright/src/pages/ContactUsPage.ts\", \"function\": undefined, \"line\": 80}, \"params\": {\"selector\": \".contact-form .alert-success\", \"strict\": true}, \"stepId\": \"pw:api@19\", \"steps\": [], \"title\": \"locator.textContent(.contact-form .alert-success)\", \"wallTime\": 1734614867732}, {\"boxedStack\": undefined, \"category\": \"expect\", \"complete\": [Function complete], \"infectParentStepsWithError\": undefined, \"location\": {\"column\": 49, \"file\": \"/home/runner/work/git-workflow-attach-report-playwright/git-workflow-attach-report-playwright/src/pages/ContactUsPage.ts\", \"function\": undefined, \"line\": 80}, \"params\": {\"expected\": \"Success! Your details have been submitted successfully.\"}, \"stepId\": \"expect@20\", \"steps\": [], \"title\": \"expect.toBe\", \"wallTime\": 1734614867733}], \"title\": \"Verify success message\", \"wallTime\": 1734614867731}, \"previous\": undefined, \"type\": \"stepZone\"}}",
+      "time" : {
+        "start" : 1734614865707,
+        "stop" : 1734614868271,
+        "duration" : 2564
+      }
+    } ]
+  },
+  "9b45d67e2f789361dad8fc08374ca172:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e108b8fff5f0fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1734614873677,
+        "stop" : 1734614876372,
+        "duration" : 2695
+      }
+    } ]
+  },
+  "c536e8f84a74a6d97ba9a5ba86b98a6a:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17e7e532867aeea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1734614869168,
+        "stop" : 1734614871543,
+        "duration" : 2375
+      }
+    } ]
+  },
+  "a9a7008cc9f18fe8d4d477907598c470:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85202c2642bc6afd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1734614871553,
+        "stop" : 1734614873670,
+        "duration" : 2117
+      }
+    } ]
+  }
+}
